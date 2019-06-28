@@ -19,7 +19,7 @@ function init() {
     width = canvas.width;
     height = canvas.height;
 
-    let noPoints = 3; // First and last points are the same
+    let noPoints = 3; 
     for (let i = 0; i < noPoints; ++i) {
         pointX.push(0.0);
         pointY.push(0.0);
